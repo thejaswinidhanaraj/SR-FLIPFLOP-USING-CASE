@@ -41,6 +41,7 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 Developed by:THEJASWINI D
 RegisterNumber:212223110059
 */
+```
 module EXP_6(q, q_bar, s,r, clk, reset);//SR Flip Flop Behavioral Level using ‘case’ 
   input s,r,clk, reset;
   output reg q;
@@ -61,6 +62,7 @@ module EXP_6(q, q_bar, s,r, clk, reset);//SR Flip Flop Behavioral Level using �
   end
   assign q_bar = ~q;
 endmodule
+```
 **RTL LOGIC FOR FLIPFLOPS**
 
 ![ex6 de](https://github.com/thejaswinidhanaraj/SR-FLIPFLOP-USING-CASE/assets/148514511/e7fe2677-d81e-4236-89e1-934ddde353a2)
@@ -70,3 +72,4 @@ endmodule
 ![ex6-1 de](https://github.com/thejaswinidhanaraj/SR-FLIPFLOP-USING-CASE/assets/148514511/0b3055b3-4b7b-4bc3-8783-d953e3e961b4)
 
 **RESULTS**
+Hence the output for sr-flipflop -using-case is verified.
